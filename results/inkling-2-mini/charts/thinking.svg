@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="s" viewBox="0 0 960 328" width="960" height="328" role="img" aria-labelledby="t d"><title id="t">Share of output spent thinking</title><desc id="d">Maths: 82% thinking, median 304 tokens; Python coding: 86% thinking, median 969 tokens; Elixir coding: 88% thinking, median 1054 tokens</desc>
+<style>
+  .s{--surface:#fcfcfb;--ink:#0b0b0b;--ink2:#52514e;--muted:#6b6a65;--grid:#e1e0d9;--axis:#c3c2b7;
+     --s1:#2a78d6;--s2:#eb6834;--good:#0ca30c;--bad:#d03b3b;--ring:rgba(11,11,11,.10)}
+  @media (prefers-color-scheme: dark){
+  .s{--surface:#1a1a19;--ink:#f0efec;--ink2:#c3c2b7;--muted:#a3a29b;--grid:#2c2c2a;--axis:#383835;
+     --s1:#3987e5;--s2:#d95926;--good:#0ca30c;--bad:#e66767;--ring:rgba(255,255,255,.10)}}
+  text{font-family:system-ui, -apple-system, 'Segoe UI', sans-serif;fill:var(--ink)}
+  .t{font-size:22px;font-weight:620;letter-spacing:-.01em}
+  .sub{font-size:15px;fill:var(--ink2)}
+  .lbl{font-size:15px;fill:var(--ink2)}
+  .val{font-size:15px;font-weight:600;fill:var(--ink)}
+  .ax{font-size:13px;fill:var(--muted);font-family:ui-monospace, 'SF Mono', Menlo, monospace}
+  .foot{font-size:12px;fill:var(--muted);font-family:ui-monospace, 'SF Mono', Menlo, monospace}
+  .grid{stroke:var(--grid);stroke-width:1}
+  .base{stroke:var(--axis);stroke-width:1}
+</style><rect width="960" height="328" rx="16" fill="var(--surface)" stroke="var(--ring)"/><text class="t" x="32" y="46">Most of what it writes, you never read</text><text class="sub" x="32" y="72">Share of generated text spent thinking before the answer.</text><rect x="630" y="36" width="12" height="12" rx="3" fill="var(--s1)"/><text class="lbl" x="648" y="47">Thinking</text><rect x="740" y="36" width="12" height="12" rx="3" fill="var(--s2)"/><text class="lbl" x="758" y="47">Answer</text><text class="lbl" x="216" y="138" text-anchor="end">Maths</text><rect x="230" y="122" width="474.7951308647283" height="24" fill="var(--s1)"/><path d="M706.7951308647283,122 H806.0 Q810.0,122 810.0,126 V142 Q810.0,146 806.0,146 H706.7951308647283 Z" fill="var(--s2)"/><text x="240" y="139" style="font-size:14px;font-weight:600;fill:#fff">82%</text><text class="ax" x="822" y="139">~304 tok</text><text class="lbl" x="216" y="188" text-anchor="end">Python coding</text><rect x="230" y="172" width="495.327514910215" height="24" fill="var(--s1)"/><path d="M727.327514910215,172 H806.0 Q810.0,172 810.0,176 V192 Q810.0,196 806.0,196 H727.327514910215 Z" fill="var(--s2)"/><text x="240" y="189" style="font-size:14px;font-weight:600;fill:#fff">86%</text><text class="ax" x="822" y="189">~969 tok</text><text class="lbl" x="216" y="238" text-anchor="end">Elixir coding</text><rect x="230" y="222" width="511.5879583061601" height="24" fill="var(--s1)"/><path d="M743.5879583061601,222 H806.0 Q810.0,222 810.0,226 V242 Q810.0,246 806.0,246 H743.5879583061601 Z" fill="var(--s2)"/><text x="240" y="239" style="font-size:14px;font-weight:600;fill:#fff">88%</text><text class="ax" x="822" y="239">~1,054 tok</text><text class="foot" x="32" y="308">By character count of the reasoning vs answer channels · right: median tokens per reply</text></svg>
